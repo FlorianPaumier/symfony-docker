@@ -101,8 +101,10 @@ services:
 
 And run :
 ````bash
-docker-compose -f docker-compose.yaml -f docker-compose.override.yaml up -d
+docker-compose up -d
 ````
+
+If `docker-compose.yaml` and a `docker-compose.override.yaml` are present on the same directory level, Docker Compose combines the two files into a single configuration, applying the configuration in the `docker-compose.override.yaml` file over and in addition to the values in the `docker-compose.yaml` file.
 
 ### Troubleshooting
 
