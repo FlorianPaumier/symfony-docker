@@ -5,6 +5,8 @@ with [FrankenPHP](https://frankenphp.dev) and [Caddy](https://caddyserver.com/) 
 
 ![CI](https://github.com/dunglas/symfony-docker/workflows/CI/badge.svg)
 
+![CI](https://github.com/dunglas/symfony-docker/workflows/CI/badge.svg)
+
 ## Getting Started
 
 1. If not already done, [install Docker Compose](https://docs.docker.com/compose/install/) (v2.10+)
