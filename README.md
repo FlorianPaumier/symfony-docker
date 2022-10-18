@@ -136,6 +136,10 @@ If you have a SSL trust issues, download the self-signed certificate and run :
 
 `sudo security add-trusted-cert -d -r trustRoot -k /Library/Keychains/System.keychain /path/to/you/certificate.cer`
 
+## License
+
+Symfony Docker is available under the MIT License.
+
 ## Credits
 
 Created by [Kévin Dunglas](https://dunglas.dev), co-maintained by [Maxime Helias](https://twitter.com/maxhelias) and sponsored by [Les-Tilleuls.coop](https://les-tilleuls.coop).
